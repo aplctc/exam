@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exam Interface</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <span>Exam</span>
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <span>Student</span>
+    <div class="timer" id="timer">Time: 10:00</div>
+    <button id="finishButton">পরিক্ষা সমাপ্ত</button>
+  </header>
+  <div class="main">
+    <div class="sidebar" id="questionNav"></div>
+    <div class="content">
+      <div class="question" id="questionText"></div>
+      <div class="answer" id="answerBox"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <button id="backButton">< পেছনে যান</button>
+    <button id="nextButton">এগিয়ে যান ></button>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

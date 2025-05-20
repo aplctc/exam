@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.progress-container {
+  flex: 1;
+  margin: 0 10px;
+  background: #ccc;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.progress-bar {
+  background: #00d9ff;
+  height: 10px;
+  width: 0%;
+}
+.main {
+  display: flex;
+}
+.sidebar {
+  background: #e0f7fa;
+  padding: 10px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar button {
+  width: 40px;
+  margin: 5px 0;
+  padding: 5px;
+  border: none;
+  background: #00d9ff;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sidebar button.answered {
+  background-color: black;
+  color: white;
+}
+.sidebar button.active {
+  border: 2px solid #000;
+}
+.content {
+  flex: 1;
+  padding: 20px;
+}
+.question {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.answer {
+  display: flex;
+  flex-direction: column;
+}
+.answer .option {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.answer .selected {
+  border-color: yellow;
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  background-color: #2c3e50;
+}
+.footer button {
+  margin-left: 10px;
+  background-color: #00d9ff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.timer {
+  font-size: 18px;
+}
